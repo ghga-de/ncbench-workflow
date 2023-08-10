@@ -77,5 +77,5 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: deploy-page
-          repo: ncbench/ncbench.github.io
+          repo: ncbench-workflow/ncbench.github.io
           token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
