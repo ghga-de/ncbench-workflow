@@ -101,9 +101,9 @@ variant-calls:
       restricted-access-token-envvar: CO_AGILENT_TOKEN
       filename: NA12878_75M_SID118711_AID130010.cmb.func.vcf.gz
     benchmark: giab-NA12878-agilent-75M
-  GHGA-sarek-dragmap-haplotypecaller-agilent-200M:
+  GHGA-sarek-dragmap-haplotypecaller-agilent-200M-try:
     labels:
-      site: GHGA-Munich
+      site: GHGA-Munich-try
       pipeline: nf-core/sarek v3.1 dragmap-haplotypecaller
       reads: 200M
     subcategory: NA12878-agilent
